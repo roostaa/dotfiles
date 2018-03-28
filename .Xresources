@@ -59,7 +59,6 @@ rofi.modi:                           ssh,run
 rofi.sidebar-mode:                   false
 rofi.terminal:                       urxvt
 rofi.ssh-client:                     ssh
-rofi.ssh-command:                    urxvt -e "ssh -i ~/.ssh/id_rsa dan@71.173.195.65"
 rofi.opacity:                        50
 rofi.width:                          50
 rofi.lines:                          6
