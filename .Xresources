@@ -1,0 +1,97 @@
+URxvt.perl-ext-common: font-size
+
+URxvt.scrollBar: false
+URxvt.font: xft:Source Code Pro:regular:size=12
+
+URxvt.keysym.C-equal:     perl:font-size:increase
+
+! special
+*.foreground:   #a7a7a7
+*.background:   #1e1e1e
+*.cursorColor:  #a7a7a7
+
+! black
+*.color0:       #1e1e1e
+*.color8:       #5f5a60
+
+! red
+*.color1:       #cf6a4c
+*.color9:       #cf6a4c
+
+! green
+*.color2:       #8f9d6a
+*.color10:      #8f9d6a
+
+! yellow
+*.color3:       #f9ee98
+*.color11:      #f9ee98
+
+! blue
+*.color4:       #7587a6
+*.color12:      #7587a6
+
+! magenta
+*.color5:       #9b859d
+*.color13:      #9b859d
+
+! cyan
+*.color6:       #afc4db
+*.color14:      #afc4db
+
+! white
+*.color7:       #a7a7a7
+*.color15:      #ffffff
+
+!fake transparency
+
+!urxvt*transparent: true
+!urxvt*shading: 15
+
+!composite transparency
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+!URxvt.blurRadius: 30
+
+! === rofi ===
+
+rofi.modi:                           ssh,run
+rofi.sidebar-mode:                   false
+rofi.terminal:                       urxvt
+rofi.ssh-client:                     ssh
+rofi.ssh-command:                    urxvt -e "ssh -i ~/.ssh/id_rsa dan@71.173.195.65"
+rofi.opacity:                        50
+rofi.width:                          50
+rofi.lines:                          6
+rofi.columns:                        1
+rofi.font:                           SourceCodePro-SemiBold 16
+rofi.fg:                             #5294E2
+rofi.bg:                             #5d729f
+rofi.fg-active:                      #34405a
+rofi.fg-urgent:                      #34405a
+rofi.hlfg-active:                    #5e73a0
+rofi.hlfg-urgent:                    #5e73a0
+rofi.bg-active:                      #34405a
+rofi.bg-urgent:                      #34405a
+rofi.hlbg-active:                    #5d729f
+rofi.hlbg-urgent:                    #5d729f
+rofi.bgalt:                          #5671a0
+rofi.hlfg:                           #34405a
+rofi.hlbg:                           #34405a
+rofi.bc:                             #789ee1
+! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
+rofi.color-normal: #353944,  #FFFFFF,  #353944,  #5294E2,  #FFFFFF
+
+!                  'background', 'border'
+rofi.color-window: #353944,      #404552
+rofi.bw:                             10
+rofi.location:                       0
+rofi.padding:                        20
+rofi.levenshtein-sort:               true
+rofi.case-sensitive:                 false
+rofi.fuzzy:                          false
+rofi.line-margin:                    2
+rofi.separator-style:                solid
+rofi.hide-scrollbar:                 true
+rofi.markup-rows:                    false
+rofi.scrollbar-width: 8
