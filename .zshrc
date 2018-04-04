@@ -1,5 +1,7 @@
 clear
 neofetch 
+alias pipes="/usr/local/bin/pipes.sh"
+
 
 export SPOTIPY_CLIENT_ID='87c56089e2a74a009342a40591e66f08'
 export SPOTIPY_CLIENT_SECRET='a65021c6aa4b440db18c53eb8e70b3d3'
